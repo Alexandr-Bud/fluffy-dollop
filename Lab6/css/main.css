@@ -1,0 +1,152 @@
+.header 
+{
+    background-color: #1a2431;
+    display: flex;
+    padding: 20px 162px;
+}
+
+.title-block 
+{
+    display: flex;
+    padding-right: 160px;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.features 
+{
+    width: 1596px;
+    margin: 162px auto;
+}
+
+.blogs 
+{
+    width: 1596px;
+    margin: 0 auto;
+}
+
+.prising 
+{
+    width: 1596px;
+    margin: 140 auto;
+}
+
+.footer 
+{
+    background-color: #1a2431;
+    padding: 50px 162px;
+}
+
+
+.title 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 996px;
+}
+
+.title h1 
+{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title div {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.text {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+@media (max-width: 768px) 
+{
+    .header 
+    {
+        background-color: #1a2431;
+        display: flex;
+        padding: 20px 15px;
+    }
+
+    .title-block 
+    {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        margin-top: 0;
+        gap: 30px;
+    }
+    
+    .features 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+    }
+    
+    .blogs 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .prising 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 55px auto;
+    }
+
+    .footer 
+    {
+        background-color: #1a2431;
+        padding: 30px 16px;
+    }
+
+    .title 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .title h1 
+    {
+        color: #000000;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .title div {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /* Стили для текста */
+    .text {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

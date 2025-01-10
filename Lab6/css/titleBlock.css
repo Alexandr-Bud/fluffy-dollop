@@ -1,0 +1,194 @@
+.title-block-img 
+{
+    width: 949px;
+
+}
+
+.title-block_inf 
+{
+    margin: auto;
+}
+
+.title-block_inf-toptext
+ {
+    display: inline-flex;
+    border-bottom: 3px solid #7babea;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1A3129;
+}
+
+.title-block_inf-title
+{
+    font-size: 60px;
+    font-weight: bold;
+    color: #1A3129;
+    margin-bottom: 20px;
+}
+
+.title-block_inf-text 
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.title-block_inf-button {
+    display: flex;
+    margin: 0 auto 70px auto;
+    gap: 20px;
+
+}
+
+.title-block_inf-button_1 
+{
+    background-color: #7babea;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-block_inf-button_2 
+{
+    background-color: #ede9fb;
+    padding: 15px 25px;
+    border: 1px solid #bdc7f5;
+    border-radius: 8px;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-block_inf_customers 
+{
+    display: flex;
+    gap: 10px;
+}
+
+.title-block_inf_customers-img 
+{
+    display: inline-flex;
+    padding: 10px 10px;
+    border: 1px solid #7babea;
+    border-radius: 60px;
+}
+
+.title-block_inf_customers-img-1 
+{
+    height: 50px;
+}
+
+.title-block_inf_customers-img-2 
+{
+    height: 50px;
+    margin-left: -20px;
+}
+
+.title-block_inf_customers-img-3 
+{
+    height: 50px;
+    margin-left: -20px;
+}
+
+.title-block_inf_customers-text 
+{
+    display: flex;
+    margin: auto 0;
+    gap: 5px;
+    color: #233043;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.title-block_inf_customers-text p 
+{
+    color: #465786;
+    font-weight: 700;
+}
+
+
+
+
+
+@media (max-width: 768px) 
+{
+    .title-block-img 
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+    }
+    
+    .title-block_inf 
+    {
+        margin: auto;
+        text-align: center;
+        padding: 0 15px;
+    }
+    
+    .title-block_inf-toptext 
+    {
+        display: inline-flex;
+        border-bottom: 3px solid #7babea;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 600;
+        color: #1a2431;
+    }
+    
+    .title-block_inf-title 
+    {
+        font-size: 40px;
+        font-weight: bold;
+        color: #1a2231;
+        margin-bottom: 15px;
+    }
+    
+    .title-block_inf-text 
+    {
+        font-size: 15px;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 30px;
+    }
+    
+    .title-block_inf-button 
+    {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .title-block_inf-button_1 
+    {
+        background-color: #7babea;
+        padding: 15px 15px;
+        border-radius: 10px;
+        color: #262626;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .title-block_inf-button_2 
+    {
+        background-color: #ede9fb;
+        padding: 15px 15px;
+        border: 1px solid #bdc7f5;
+        border-radius: 10px;
+        color: #262626;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .title-block_inf_customers 
+    {
+        display: none;
+        gap: 10px;
+    }
+}

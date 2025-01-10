@@ -1,0 +1,219 @@
+.prising_subscrip 
+{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto 50px auto;
+    text-align: center;
+    gap: 14px;
+}
+
+.prising_subscrip_choice 
+{
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 10px;
+    border: 1px solid #a7c1f1;
+    border-radius: 8px;
+}
+
+.prising_subscrip_choice-monthly 
+{
+    background-color: #233243;
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.prising_subscrip_choice-yearly 
+{
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #4C4C4C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.prising_subscrip-discount
+ {
+    color: #4C4C4C;
+    font-size: 20px;
+    font-weight: 500;;
+}
+
+.prising_choice 
+{
+    display: flex;
+    gap: 30px;
+}
+
+.prising_choice-elem 
+{
+    padding: 50px;
+    background-color: #ede9fb;
+    border: 1px solid #bdc7f5;
+    border-radius: 10px;
+}
+
+.prising_choice-elem-title 
+{
+    color: #262626;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.prising_choice-elem-bottomtitle 
+{
+    color: #4C4C4D;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.prising_choice-elem-price 
+{
+    display: flex;
+    margin-top: 40px;
+}
+
+.prising_choice-elem-price_num
+ {
+    color: #2c3754;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.prising_choice-elem-price_moth 
+{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto 0;
+}
+
+.prising_choice-elem-button 
+{
+    background-color: #7babea;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 100%;
+    margin-top: 30px;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+@media (max-width: 770px) 
+{
+    .prising_subscrip 
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 30px auto;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .prising_subscrip_choice 
+    {
+        margin: 0 auto;
+        display: inline-flex;
+        padding: 10px;
+        border: 1px solid #a7dcf1;
+        border-radius: 10px;
+    }
+    
+    .prising_subscrip_choice-monthly 
+    {
+        background-color: #233243;
+        padding: 10px 24px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .prising_subscrip_choice-yearly 
+    {
+        background-color: #fff;
+        padding: 10px 25px;
+        border-radius: 10px;
+        color: #4C4C4C;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .prising_subscrip-discount 
+    {
+        color: #4C4C4C;
+        font-size: 15px;
+        font-weight: 500;;
+    }
+    
+    .prising_choice 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .prising_choice-elem 
+    {
+        padding: 30px;
+        background-color: #ede9fb;
+        border: 1px solid #bdc7f5;
+        border-radius: 8px;
+    }
+    
+    .prising_choice-elem-title 
+    {
+        color: #262626;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .prising_choice-elem-bottomtitle 
+    {
+        color: #4C4C4D;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    
+    .prising_choice-elem-price 
+    {
+        display: flex;
+        margin-top: 25px;
+    }
+    
+    .prising_choice-elem-price_num 
+    {
+        color: #2c3754;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .prising_choice-elem-price_moth {
+        color: #333333;
+        font-size: 15px;
+        font-weight: 500;
+        margin: auto 0;
+    }
+    
+    .prising_choice-elem-button {
+        background-color: #7babea;
+        border-radius: 10px;
+        padding: 15px 25px;
+        width: 100%;
+        margin-top: 25px;
+        color: #262626;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
